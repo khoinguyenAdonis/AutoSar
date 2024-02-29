@@ -38,12 +38,12 @@ typedef enum {
 
 typedef enum
 {
-	DIO_PORT_A = 0,
-	DIO_PORT_B = 1,
-	DIO_PORT_C = 2,
-	DIO_PORT_D = 3,
-	DIO_PORT_E = 4,
-	DIO_PORT_F = 5 
+	DIO_PORT_A = 0x01,
+	DIO_PORT_B = 0x02,
+	DIO_PORT_C = 0x03,
+	DIO_PORT_D = 0x04,
+	DIO_PORT_E = 0x05,
+	DIO_PORT_F = 0x06 
 }Dio_PortType;
 
 typedef struct
